@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your Name — Actuarial, Finance, Risk and Analytics portfolio.">
+  <title>Your Name — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrap">
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#highlights" class="nav-link">Highlights</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#honors" class="nav-link">Honors &amp; Awards</a>
+        <a href="#experience" class="nav-link">Education &amp; Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#highlights" class="mobile-link">Highlights</a>
+        <a href="#certifications" class="mobile-link">Certifications</a>
+        <a href="#honors" class="mobile-link">Honors &amp; Awards</a>
+        <a href="#experience" class="mobile-link">Education &amp; Experience</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO: EDIT YOUR NAME ONLY ================= -->
+    <section id="hero" class="hero section-pad-lg">
+      <div class="container hero-grid">
+        <div class="hero-copy" data-reveal>
+          <h1 class="hero-title">Your Name</h1>
+          <p class="hero-role">Actuarial | Finance | Risk | Analytics</p>
+        </div>
+
+        <div class="hero-media" data-reveal data-delay="120">
+          <div class="portrait-card">
+            <img
+              src="assets/photo.jpg"
+              alt="Portrait of Your Name"
+              class="hero-photo"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+            >
+            <div class="photo-placeholder" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                <circle cx="12" cy="8" r="4"></circle>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"></path>
+              </svg>
+              <span>Add your photo as <strong>assets/photo.jpg</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT: EDIT THESE TWO PARAGRAPHS ================= -->
+    <section id="about" class="section-pad section-surface">
+      <div class="container narrow-grid">
+        <div data-reveal>
+          <p class="section-kicker">About</p>
+          <h2 class="section-title">About</h2>
+        </div>
+
+        <div class="about-stack" data-reveal data-delay="100">
+          <p>
+            I am a university student building a strong foundation in actuarial thinking, finance, risk awareness, and analytical problem-solving. I value discipline, consistency, and continuous growth in both academic and professional settings.
+          </p>
+          <p>
+            My goal is to keep developing practical knowledge, professional exposure, and strong decision-making skills as I prepare for opportunities in finance, risk, analytics, and related fields.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HIGHLIGHTS: COPY A CARD TO ADD MORE ================= -->
+    <section id="highlights" class="section-pad">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker">Highlights</p>
+          <h2 class="section-title">Highlights</h2>
+        </div>
+
+        <div class="highlights-grid">
+          <article class="highlight-card" data-reveal>
+            <h3>Analytical Thinking</h3>
+            <p>Use this card to describe a strength in problem-solving, interpretation, or working with numbers.</p>
+          </article>
+
+          <article class="highlight-card" data-reveal data-delay="100">
+            <h3>Leadership Roles</h3>
+            <p>Use this card for student leadership, teamwork, responsibility, or any role where you contributed to others.</p>
+          </article>
+
+          <article class="highlight-card" data-reveal data-delay="160">
+            <h3>Professional Skills</h3>
+            <p>Use this card for skills such as research, reporting, Excel, communication, presentation, or project coordination.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS: COPY ONE CERT CARD TO ADD MORE ================= -->
+    <section id="certifications" class="section-pad section-surface">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker">Certifications</p>
+          <h2 class="section-title">Certifications</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="cert-card" data-reveal>
+            <div class="cert-image-wrap">
+              <img
+                src="assets/certificate-1.jpg"
+                alt="Certificate 1"
+                class="cert-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+              >
+              <div class="cert-image-placeholder" aria-hidden="true">
+                <span>Certificate image</span>
+                <small>Add a clear scan to <strong>assets/certificate-1.jpg</strong></small>
+              </div>
+            </div>
+            <div class="cert-content">
+              <p class="cert-provider">Provider Name</p>
+              <h3>Certificate Name</h3>
+            </div>
+          </article>
+
+          <article class="cert-card" data-reveal data-delay="100">
+            <div class="cert-image-wrap">
+              <img
+                src="assets/certificate-2.jpg"
+                alt="Certificate 2"
+                class="cert-image"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+              >
+              <div class="cert-image-placeholder" aria-hidden="true">
+                <span>Certificate image</span>
+                <small>Add a clear scan to <strong>assets/certificate-2.jpg</strong></small>
+              </div>
+            </div>
+            <div class="cert-content">
+              <p class="cert-provider">Provider Name</p>
+              <h3>Certificate Name</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HONORS & AWARDS: COPY AN ITEM TO ADD MORE ================= -->
+    <section id="honors" class="section-pad">
+      <div class="container split-layout">
+        <div class="section-head sticky-head" data-reveal>
+          <p class="section-kicker">Honors &amp; Awards</p>
+          <h2 class="section-title">Honors &amp; Awards</h2>
+          <p class="section-text">Use this section for scholarships, academic recognition, competition awards, leadership recognition, or special achievements.</p>
+        </div>
+
+        <div class="timeline" data-reveal data-delay="120">
+          <article class="timeline-item">
+            <span class="timeline-year">2025</span>
+            <div>
+              <h3>Scholarship or Academic Recognition</h3>
+              <p>Write the name of the scholarship, award, or recognition and one short line explaining it.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-year">2024</span>
+            <div>
+              <h3>Another Honor or Award</h3>
+              <p>Use this for another recognition that strengthens your profile.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION & EXPERIENCE: COPY AN ITEM TO ADD MORE ================= -->
+    <section id="experience" class="section-pad section-surface">
+      <div class="container split-layout">
+        <div class="section-head sticky-head" data-reveal>
+          <p class="section-kicker">Education &amp; Experience</p>
+          <h2 class="section-title">Education &amp; Experience</h2>
+          <p class="section-text">Use this section for your academic journey, internships, attachments, and other experiences that show growth.</p>
+        </div>
+
+        <div class="timeline" data-reveal data-delay="120">
+          <article class="timeline-item">
+            <span class="timeline-year">Present</span>
+            <div>
+              <h3>BSc Actuarial Science</h3>
+              <p>Add your institution and a short line about your current academic journey.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-year">2025</span>
+            <div>
+              <h3>Internship / Field / Attachment</h3>
+              <p>Add your internship, field attachment, or practical exposure here.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-year">2024</span>
+            <div>
+              <h3>Another Growth Milestone</h3>
+              <p>Use this for another academic or practical step that helped your development.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT: REPLACE WITH YOUR REAL LINKS ================= -->
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="section-kicker">Contact</p>
+          <h2 class="section-title">Contact</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a href="mailto:your.email@example.com" class="contact-card" data-reveal>
+            <span class="contact-label">Email</span>
+            <strong>your.email@example.com</strong>
+          </a>
+
+          <a href="https://linkedin.com/in/your-linkedin" class="contact-card" target="_blank" rel="noopener noreferrer" data-reveal data-delay="80">
+            <span class="contact-label">LinkedIn</span>
+            <strong>linkedin.com/in/your-linkedin</strong>
+          </a>
+
+          <a href="https://github.com/your-github" class="contact-card" target="_blank" rel="noopener noreferrer" data-reveal data-delay="120">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/your-github</strong>
+          </a>
+
+          <a href="https://wa.me/255700000000" class="contact-card" target="_blank" rel="noopener noreferrer" data-reveal data-delay="160">
+            <span class="contact-label">WhatsApp</span>
+            <strong>+255 700 000 000</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

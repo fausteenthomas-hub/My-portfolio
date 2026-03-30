@@ -1,0 +1,7 @@
+Put your files here.
+
+Recommended names:
+- photo.jpg
+- certificate-1.jpg
+- certificate-2.jpg
+- add more certificate images as needed
